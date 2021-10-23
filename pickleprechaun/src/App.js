@@ -1,5 +1,11 @@
 import React from "react";
 import TacoFriendsGallery from './data/TacoFriendsGallery.gif'
+
+import tacomann from './data/tacomann.png'
+import tacofriend1 from './data/tacofriend1.png'
+
+
+
 import pickleprechaunlogobig from './data/pickleprechaunlogobig.png'
 import './App.css';
 
@@ -8,10 +14,11 @@ import './App.css';
 function Nav(props) {
   return(
   <section>
-  
+    {/* <li><a href="#">Pickleprechaun</a>Pickleprechaun</li> */}
+
   <li>Pickleprechaun</li>
-  <li>about</li>
-  <li>contact</li>
+  {/* <li>about</li> */}
+  {/* <li>contact</li> */}
   
   </section>
   )
@@ -24,7 +31,7 @@ function Header(props) {
     <section>
     
       <img src ={pickleprechaunlogobig}
-      height ={900}
+     
       alt="logo for Pickleprechaun studio"/>
       </section>
   )
@@ -37,8 +44,35 @@ function Main(props) {
   <section>
     <img src = {TacoFriendsGallery}
     height = {600}
+    // width = {400}
     alt="Taco Friends NFT gif"/>
-    <p>cards with images here next</p>
+    <p></p>
+  
+
+
+
+  {/* this might be in a different function/file soon */}
+    <container>
+    <img src = {tacomann}
+    height = {300}
+    alt="taco mann, first name Taco, last name Mann"/>
+    <p>Taco Mann, first name Taco, last name Mann</p>
+      {/* need to finalize this container better before going live */}
+
+    <img src = {tacofriend1}
+    height = {300}
+    alt="taco friend, the cool version"/>
+    <p>Taco Friend 1, the <em>cool</em> version</p>
+      {/* need to finalize this container better before going live */}
+    </container>
+  
+  
+  
+  
+  
+  
+  
+  
   </section>
 
 

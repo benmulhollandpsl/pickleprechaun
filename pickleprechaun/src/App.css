@@ -1,7 +1,13 @@
 .App {
   text-align: center;
-}
+  display: grid;
+  min-width: 800px;
 
+  
+}
+.img {
+  display: stretch;
+}
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -13,18 +19,40 @@
   }
 } */
 
+
+/* ~~~~~~~~~~~NAV */
 .App-nav {
   
   background-color: darkgreen;
   nav-index: auto;
   letter-spacing: normal;
   font-size: calc(10px + 2vmin);
-  background-image: linear-gradient(darkgreen, green);
-
+  background-image: linear-gradient(rgb(238, 79, 203), rgb(247, 88, 88));
+  color:aliceblue;
+  /* background: black; */
+  top: 0;
+  width: 100%;
+  transition:all 3.5s;
+  position: relative;
+  z-index: 1;
   
   
 }
 
+.App-nav li {
+  flex: 1;
+  text-align: left;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+
+
+
+
+
+/* ~~~~~~~~~~~Brand logo I guess */
 .App-header {
   background-color: #ff944d;
   min-height: 100vh;
@@ -35,9 +63,24 @@
   font-size: calc(10px + 2vmin);
   color: white;
   background-image: linear-gradient(green, orange);
+  width: 100%;
+  transition:all 3s;
+  position: relative;
+  z-index: 1;
 
 }
 
+.App-header img {
+  display: flex;
+  /* min-width: calc(200px + 1vmin); */
+  max-width: calc(800px + 8vmax);
+  transition:all 1s;
+  position: relative;
+  z-index: 2;
+  /* background: linear-gradient(to left, transparent, mistyrose),url(../src/data/pickleprechaunnowriting.png) */
+}
+
+/* ~~~~~~~~~~~~~~~~~~NFT content */
 .App-main {
   background-color: purple;
   font-size: calc(10px + 2vmin);
@@ -47,8 +90,9 @@
 
 
 
-
+/* ~~~~~~~~~~~~~~~~~~footah */
 .App-footer {
+  background-image: linear-gradient( rgb(247, 88, 88),rgb(238, 79, 203));
 
   font-size: calc(10px + 2vmin);
   color:chartreuse;
