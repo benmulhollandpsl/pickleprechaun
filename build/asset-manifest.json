@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/pickleprechaun/static/css/main.0f131acd.chunk.css",
+    "main.js": "/pickleprechaun/static/js/main.d5177107.chunk.js",
+    "main.js.map": "/pickleprechaun/static/js/main.d5177107.chunk.js.map",
+    "runtime-main.js": "/pickleprechaun/static/js/runtime-main.82de6186.js",
+    "runtime-main.js.map": "/pickleprechaun/static/js/runtime-main.82de6186.js.map",
+    "static/js/2.f65ca205.chunk.js": "/pickleprechaun/static/js/2.f65ca205.chunk.js",
+    "static/js/2.f65ca205.chunk.js.map": "/pickleprechaun/static/js/2.f65ca205.chunk.js.map",
+    "index.html": "/pickleprechaun/index.html",
+    "static/css/main.0f131acd.chunk.css.map": "/pickleprechaun/static/css/main.0f131acd.chunk.css.map",
+    "static/js/2.f65ca205.chunk.js.LICENSE.txt": "/pickleprechaun/static/js/2.f65ca205.chunk.js.LICENSE.txt",
+    "static/media/TacoFriendsGallery.df7681c0.gif": "/pickleprechaun/static/media/TacoFriendsGallery.df7681c0.gif",
+    "static/media/pickleprechaunlogobig.3a4feec0.png": "/pickleprechaun/static/media/pickleprechaunlogobig.3a4feec0.png",
+    "static/media/tacofriend1.18a22430.png": "/pickleprechaun/static/media/tacofriend1.18a22430.png",
+    "static/media/tacomann.cfc8cefd.png": "/pickleprechaun/static/media/tacomann.cfc8cefd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82de6186.js",
+    "static/js/2.f65ca205.chunk.js",
+    "static/css/main.0f131acd.chunk.css",
+    "static/js/main.d5177107.chunk.js"
+  ]
+}
